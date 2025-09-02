@@ -2372,6 +2372,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 8px;
 			display: block;
+			max-width: 100%;
+  			height: auto;
 		}
 
 		.image.left, .image.right {
@@ -3782,3 +3784,13 @@ figcaption {
 	text-align: center;
 }
 
+/* --- Add this at the very end of main.css --- */
+@media (max-width: 768px) {
+  .image.left,
+  .image.right {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
