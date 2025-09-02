@@ -3781,3 +3781,6 @@ figcaption {
 	font-size: 0.9em;
 	text-align: center;
 }
+
+/* Make a specific image scale with the container */
+.img-fluid { width: 100%; height: auto; display: block; }
