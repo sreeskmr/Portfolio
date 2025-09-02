@@ -2365,17 +2365,14 @@ input, select, textarea {
 	.image {
 		border-radius: 8px;
 		border: 0;
-		display: block;
+		display: inline-block;
 		position: relative;
 		max-width: 100%;
 	}
 
 		.image img {
 			border-radius: 8px;
-			display: block;
-			width: 100%; 
-			max-width: 100%;
-  			height: auto;
+			display: block; 
 		}
 
 		.image.left, .image.right {
