@@ -3786,14 +3786,4 @@ figcaption {
 	text-align: center;
 }
 
-/* 3) Remove mobile gutters that push content wider than the viewport */
-@media (max-width: 768px) {
-	.row { margin-left: 0 !important; margin-right: 0 !important; }
-	.row > * { padding-left: 0 !important; padding-right: 0 !important; }
 
-	/* If you have .col-6 / .col-12-small etc., make them full width on phones */
-	[class*="col-"] { width: 100% !important; max-width: 100% !important; }
-
-	/* Ensure image wrappers don't exceed the viewport */
-	.image, .image.fit, .image.main, figure { max-width: 100%; }
-}
