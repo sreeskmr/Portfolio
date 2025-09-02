@@ -3798,12 +3798,6 @@ figcaption {
 
 /* 1) Make every image truly responsive */
 /* Hard-reset for all images */
-img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: auto !important;
-  display: block !important;
-}
 
 /* 2) Kill sideways scroll + box model sanity */
 html, body { max-width: 100%; overflow-x: hidden; }
