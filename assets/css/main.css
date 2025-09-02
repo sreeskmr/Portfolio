@@ -3786,16 +3786,6 @@ figcaption {
 	text-align: center;
 }
 
-@media (max-width: 768px) {
-  .image.left,
-  .image.right {
-    float: none;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 0 1em 0;
-  }
-}
-
 /* 2) Kill sideways scroll + box model sanity */
 html, body { max-width: 100%; overflow-x: hidden; }
 *, *::before, *::after { box-sizing: border-box; }
